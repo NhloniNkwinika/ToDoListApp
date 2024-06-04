@@ -18,7 +18,7 @@ function displayItems(){
                 <div class="input-controller">
                     <textarea disabled>${itemsArray[i]} </textarea>
                     <div class="edit-controller">
-                        <i class="fa-solid fa-check deleteBtn"></i>
+                        <i class="fa-solid fa-trash deleteBtn"></i>
                         <i class="fa-solid fa-pen-to-square editBtn"></i>
                     </div>
                 </div>
@@ -41,10 +41,28 @@ function activateDeleteListeners(){
         db.addEventListener("click",() =>{deleteItem(i)})
     })
 }
+
+function activateDeleteListeners(){
+    const editBtn = document.querySelectorAll(".editBtn");
+    const updateController = document.querySelectorAll(".update-controller");
+    const inputs = document.querySelectorAll(".input-controller textarea");
+    editBtn.forEach((eb,i) => {
+        eb.addEventListener("click", () => {
+            updateController[i].style.display = "block";
+            inputs[i].disabled = false;
+        })
+    })
+}
+
+function activateSaveListeners(){
+    
+}
+
+
 function deleteItem(i){
     itemsArray.splice(i,1);
     localStorage.setItem("items", JSON.stringify(itemsArray) );
-    
+    location.reload()
 }
 
 

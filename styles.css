@@ -1,3 +1,60 @@
 .update-controller{
     display: none;
 }
+*{
+    padding : 0;
+    margin: 0;
+}
+
+body{
+    background: rgba(48,64,64,1.0);
+    background: -webkit-radial-gradient(center, rgba(48, 64, 64, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);
+    background: -moz-radial-gradient(center, rgba(48, 64, 64, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);
+    background: radial-gradient(ellipse at center, rgba(48, 64, 64, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);
+    font-family: 'Shadows Into Light', cursive;
+    min-height: 100vh;
+}
+
+button{
+    height: fit-content;
+    cursor: pointer;
+    color: #04202c;
+    background-color: #c9d1c8;
+}
+
+.app{
+    
+        width:600px;
+        margin:auto;
+        padding-top:50px;
+        color:white;
+    
+}
+
+.input-header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 10px 0px
+
+}
+.to-do-input input{
+    width:250px;
+    font-family:inherit;
+    border:none;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    padding: 10px;
+}
+.to-do-input button {
+    color: #5b7065;
+    font-family: inherit;
+    border:none;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+

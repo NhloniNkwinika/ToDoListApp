@@ -1,13 +1,16 @@
 # ToDoListApp
  
-Overview
+Overview : <br>
 This is a simple to-do list application built using HTML, CSS, and JavaScript. The application allows users to add, delete, and edit tasks as completed.
 
-Features
-Add new tasks
-Delete tasks
-delete tasks
-Persist tasks using local storage
+Features : <br>
+Add new tasks <br>
+Delete tasks<br>
+Edit tasks<br>
+
+
+Persist tasks using local storage<br>
+
 
 
 

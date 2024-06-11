@@ -14,43 +14,73 @@ Persist tasks using local storage<br>
 
 
 
-Getting Started
-Prerequisites
-To run this project, you only need a modern web browser.
+Getting Started<br>
 
-Installation
-Clone the repository:
-git clone https://github.com/yourusername/todo-list.git
+Prerequisites<br>
 
-Navigate to the project directory:
-cd todo-list
-Open index.html in your web browser:
+To run this project, you only need a modern web browser.<br>
 
-open index.html
 
-Open the application in your browser.
-Enter a task in the input field and click the "Add" button to add a new task.
-Click the checkbox next to a task to mark it as completed.
-Click the "Delete" button next to a task to remove it from the list.
+Installation<br>
 
-Project Structure
-Copy code
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+Clone the repository:<br>
 
-index.html: The main HTML file that structures the webpage.
-styles.css: The CSS file that styles the application.
-script.js: The JavaScript file that adds interactivity to the application.
-README.md: This file.
+git clone https://github.com/yourusername/todo-list.git<br>
 
-Technologies Used
-HTML
-CSS
-JavaScript
-Contributing
-Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
+
+Navigate to the project directory:<br>
+
+cd todo-list<br>
+
+Open index.html in your web browser:<br>
+
+
+open index.html<br>
+
+
+Open the application in your browser.<br>
+
+Enter a task in the input field and click the "Add" button to add a new task.<br>
+
+Click the checkbox next to a task to mark it as completed.<br>
+
+Click the "Delete" button next to a task to remove it from the list.<br>
+
+
+Project Structure<br>
+
+Copy code<br>
+
+├── index.html<br>
+
+├── styles.css<br>
+
+├── script.js<br>
+
+└── README.md<br>
+
+
+index.html: The main HTML file that structures the webpage.<br>
+
+styles.css: The CSS file that styles the application.<br>
+
+script.js: The JavaScript file that adds interactivity to the application.<br>
+
+README.md: This file.<br>
+
+
+Technologies Used<br>
+
+HTML<br>
+
+CSS<br>
+
+JavaScript<br>
+
+Contributing<br>
+
+Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.<br>
+
 
 
 

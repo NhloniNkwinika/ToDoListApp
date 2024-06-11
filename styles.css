@@ -7,11 +7,15 @@
 }
 
 body{
-    background: rgb(236, 26, 149);
+  background: url(files/appPic.jpg) no-repeat center center fixed;
+  background-size: cover;
     font-family: 'Shadows Into Light', cursive;
     min-height: 100vh;
 }
 
+.picture{
+
+}
 button{
     height: fit-content;
     cursor: pointer;
@@ -24,7 +28,7 @@ button{
         width:600px;
         margin:auto;
         padding-top:50px;
-        color:white;
+        color:rgb(200, 23, 224);
     
 }
 
